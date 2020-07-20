@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+body {
+    /*font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;*/
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    padding: 1em;
+    font-size: medium;
+}
+
+.btn:active {
+    background-color: #fff;
+    color: #000;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.row {
+    padding: 1em;
+}
+
+.content {
+    margin: 3em;
+    text-align: justify;
+}
+
+.info {
+    font-size: xx-large;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    padding-left: 2em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #595959;
+}
+
+@media screen and (max-width: 600px) {
+    .title,
+    title_ {
+        font-size: 30px;
+    }
+    .contenedor {
+        grid-template-columns: auto !important;
+    }
+    .info {
+        font-size: initial;
+    }
+    .btn {
+        width: 100%;
+    }
+}
