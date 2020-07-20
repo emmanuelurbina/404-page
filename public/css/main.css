@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 body {
-    /*font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;*/
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -35,7 +33,6 @@ body {
 
 .content {
     margin: 3em;
-    text-align: justify;
 }
 
 .info {
@@ -72,6 +69,9 @@ a {
     }
     .contenedor {
         grid-template-columns: auto !important;
+    }
+    .content {
+        text-align: justify;
     }
     .info {
         font-size: initial;
