@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Page</title>
-    <link rel="stylesheet" href="./public/css/main.css">
-</head>
-
-<body>
-    <header>
-        <h3 class="title_">
-            404 NOT FOUND
-        </h3>
-    </header>
-    <div class="contenedor">
-        <div class="row">
-            <img class="img-responsive" src="./public/img/Scarecrow.png" alt="404">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation__container">
+        <div class="logo">
+          <p>404 NOT FOUND</p>
         </div>
-        <div class="content">
-            <h1 class="title">I have bad news for you</h1>
-            <p class="info">
-                The page you are looking <br> for might be removed or is <br> temporarily unavailable.
-            </p>
-            <br>
-            <a href="#" class="btn">
-                Back to homepage
-            </a>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="information">
+        <div class="image">
+          <img
+            class="image__404"
+            src="./assets/images/Scarecrow.png"
+            alt="Scarecrow"
+          />
         </div>
+        <div class="info">
+          <h1>I have bad news for you</h1>
+          <p>
+            The page you are looking for might be removed or is temporarily
+            unavailable.
+          </p>
+          <div class="button__content">
+            <button class="btn primary">BACK TO HOMEPAGE</button>
+          </div>
+        </div>
+      </section>
     </div>
     <footer class="footer">
+      <div class="container__footer">
         <p>
-            <a href="http://github.com/emmanuelurbina">@Emmanuel Lucio Urbina</a>
+            created by <a href="http://github.com/emmanuelurbina">@Emmanuelluur</a> - <a href="https://devchallenges.io/">devChallenges.io</a> 
         </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
